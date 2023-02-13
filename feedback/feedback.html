@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/130a40cffb.js" crossorigin="anonymous"></script>
+    <style>
+         body{
+            background-image: linear-gradient(to right,white,pink);
+        }
+        .logo{
+            font-size: 40px;
+            font-weight: bolder;
+            padding: 10px;
+        }
+        .cont{
+            
+            margin-left: 50px;
+            width: 500px;
+        }
+        ul a{
+font-size: 30px;
+font-weight: bolder;
+text-decoration: none;
+padding-left: 50px;
+color: gray;
+        }
+        .cont2{
+            
+            width: 800px;
+            justify-content: center;
+        }
+        .container-1{
+            display: flex;
+            align-items: center;
+        }
+        .cont3{
+           
+            
+            width: 840px;
+        }
+        button
+        {
+            float: right;
+        }
+        .check{
+            font-size: 26px;
+        }
+        .box1{
+            height: 1950px;
+            width: 1250px;
+            border: 2px solid black;
+            background-color: #E8E2E2;
+            align-items: center;
+            margin-left: 537px;
+        }
+        .feed{
+            font-size: 47px;
+            margin-left: 466px;
+            color: green;
+        }
+        .content{
+            margin-left: 45px;
+            font-size: 32px;
+        }
+        .txt{
+            margin-left: 83px;
+            width: 432px;
+            height: 50px;
+            transform: scale(1.2);
+            transition: 0.2s;
+            border-radius: 12px;
+        }
+        .txt:hover{
+            height: 60px;
+        }
+        .iradio{
+            margin-left: 45px;
+            font-size: 32px;
+        }
+        body{
+            font-size: 32px;
+        }
+        textarea{
+            margin-left: 45px; 
+        }
+        .date{
+            height: 64px;
+            width: 253px;
+            font-size: 23px;
+            margin-left: 45px;
+        }
+         select {
+            width: 276px;
+            height: 60px;
+            font-size: 27px;
+            margin-left: 45px;
+         }
+         .btn{
+            width: 243px;
+            height: 70px;
+            font-size: 32px;
+            border-radius: 12px;
+            color: white;
+            margin-left: 219px;
+            cursor: pointer;
+         }
+         .red{
+            background-color: red;
+         }
+         .green{
+            background-color: green;
+         }
+         #q{
+            margin-left: 45px;
+            height: 25px;
+            color: green;
+            background-color: green;
+         }
+        
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-1">
+        <div class="cont">
+                <p class="logo"><i class="fa-solid fa-camera"></i> Camify</p>
+            </div>
+            <div class="cont2">
+                <ul>
+                    <a href="landing.html">Home</a> &nbsp;
+                  <a href="about.html">About Us</a>&nbsp;
+                    <a href="contact.html">Contact Us</a>&nbsp;
+                    <a href="product.html">Products</a>
+                </ul>
+            </div>
+            <div class="cont3">
+        
+        <button style="width:200px;height: 80px;font-size: 30px; background-color:black;color:white; border: 1px solid black; border-radius: 12px; cursor: pointer;">Sign In</button>
+            </div>
+            
+        </div>
+        <div class="box1">
+            <p class="feed">Feedback Form</p>
+            <form action="">
+            <p class="content">Enter your name</p> <input type="text" class="txt" placeholder="Enter your name">
+             <p class="content">Enter you mail</p>
+             <input type="email" name="mailId" id="" class="txt" placeholder="Enter your mail">  <br> <br>
+             <label for="" class="content">Gender</label> &nbsp; <input type="radio" class="iradio">Male &nbsp; <input type="radio">Female
+             <br> <br><label for="" class="content">Enter Your Phone Number</label> <br>
+             <br> <input type="tel" class="txt" placeholder="enter your phone number">
+             <br>
+             <br>
+             <label for="" class="content">Enter Your Date Of Birth</label> <br> <br>
+             <input type="date" class="date"> <br> <br>
+             <label class="content" for="">Share your message/query with us :)</label> <br> <br>
+<textarea name="" id="" cols="60" rows="20"></textarea>
+<br>
+<br>
+<label class="content" for="">What do you do ?</label> <br>
+<input type="checkbox" name="student" id="q"> Student <br>
+<input type="checkbox" name="student" id="q"> FreeLancer <br>
+<input type="checkbox" name="student" id="q">  Jobholder <br>
+<input type="checkbox" name="student" id="q"> Junior <br>
+<input type="checkbox" name="student" id="q"> Senior <br>
+<input type="checkbox" name="student" id="q"> BusinessMen/Business Women <br>
+<br>
+<br>
+<label for="" class="content">I have feedback about</label> <br> <br>
+
+<select name="" id="">
+    <option value="">select category</option>
+    <option value="Website Issues">Website Issues</option>
+    <option value="">Product Support</option>
+    <option value="">Product feedback</option>
+
+</select> <br>
+<br>
+<input type="submit" class="btn green"> &nbsp;
+<input type="reset" class="btn red">
+            </form>
+        </div>
+</body>
+</html>
